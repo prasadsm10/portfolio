@@ -1,0 +1,125 @@
+*{
+	
+	box-sizing: border-box;
+}
+
+
+
+ul li {
+	padding-right:20px;
+}
+
+
+
+.banner
+{
+	background-image: url('../img/bg-masthead.png') ;
+	/*background: linear-gradient(270deg, #f7395f 0%, #f4623a 100%);*/
+	/*background-image: linear-gradient(#ff5722,#ffc107);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	position: relative;
+
+	
+}
+
+.banner-text
+{
+	 
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+
+
+     
+}
+
+.banner h1
+{
+	font-size:50px;
+	color:black;
+    font-weight: 700px;
+    text-align:center; 
+    
+}
+
+
+@media (max-width : 568px) 
+{
+	.banner
+     {
+     	height: 300px;
+     }
+	.banner h1
+	{
+		font-size:20px;
+	    color: black;
+  
+        text-align:center;
+
+	}
+	
+}
+
+
+.about{
+  /*  background-color: #6610f2;*/
+	padding-top: 100px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+
+.btn{
+	color:white;
+	background-color: #f4623a;
+	border:1px solid black;
+}
+
+.service{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+
+
+/*
+.divider{
+       max-width:3.25rem;
+          border-width:.2rem;
+          border-color:#f4623a;
+           text-align: center;
+            }*/
+
+
+.port{
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 45px;
+	
+}    
+
+
+
+.text{ 
+        text-align: center;
+        
+       
+        padding-top: 75px;
+        padding-bottom: 75px;
+        color:#f4623a;
+         }        
+
+.contact{
+
+	text-align: center;
+	margin-top: 60px;
+}         
+
+
+
+
+

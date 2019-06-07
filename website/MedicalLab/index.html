@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical Website</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+     <!--Font Awesome-->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+     <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+
+ <!--Nav Start-->  
+<header >
+     <nav class="navbar navbar-expand-lg navbar-dark  fixed-top"  style="background-color:#dc3545" >
+              <a class="navbar-brand" href="#"><span style="color:#fff">Medical+24</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active" >
+                 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="#service">Services</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="#about">About</a>
+                </li>
+
+                
+
+                <li class="nav-item">
+                 <a class="nav-link" href="#testimonial">Testimonials</a>
+                </li>
+                
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+             </ul>
+             
+         </div>
+     </nav>
+</header>
+ <!-- Nav End-->  
+
+
+    <!-- Banner Start-->
+    <div class="banner">
+    	<div class="banner-text text-center">
+    		<p>Medical Free Checkup Upto 70% Discount.Register Here.</p>
+    		<button type="button" class="btn btn-outline-light btn-md" style="background-color: #dc3545;"
+    		 onclick="openForm()"">Book Appointment</button>
+    	</div>
+
+
+    <!--	<button class="open-button" onclick="openForm()">Open Form</button>-->
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+     <label for="mobile"><b>Mobile</b></label>
+    <input type="text" placeholder="Enter Mobile" name="mobile" required>
+
+   
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+    </div>
+    <!--Banner End-->
+
+
+
+ <!-- Service Start-->
+
+           <div class="service" id="service">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Services</h1>
+                        <div class="border"></div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-user-md fa-4x mb-4" style="color:#dc3545" ></i>
+                              <h3 class="h4 mb-2">MEDIACL CONSULTING</h3>
+                              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-ambulance fa-4x mb-4" style="color:#dc3545" ></i>
+                              <h3 class="h4 mb-2">EMERGENCY </h3>
+                              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-stethoscope fa-4x mb-4" style="color:#dc3545" ></i>
+                              <h3 class="h4 mb-2">24 HOURS SUPPORT</h3>
+                              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+  <!-- Service Start-->
+
+
+  <!--About Start-->
+            <div class="about" id="about">
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>About Medical</h1>
+                            <div class="border"></div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <button type="button" class="btn btn-outline-light mb-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+  <!--About End-->
+
+
+<!--Testimonial Start-->
+    <div class="testimonial" id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Testimonials</h1>
+                        <div class="border"></div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="mt-5">
+                            <img src="img/doctor1.jpg" alt="img1" class="img-fluid " style="width: 200px; height: 200px;">
+                                
+                            <p class="text-muted pt-3 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                         <h4>- Mrs.Trupti Wagh</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="mt-5">
+                            <img src="img/doctor2.jpg" alt="img1" class="img-fluid " style="width: 200px; height: 200px;">
+                                
+                            <p class="text-muted pt-3 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                         <h4>- Mr.Ajit Joshi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="mt-5">
+                            <img src="img/doctor3.jpg" alt="img1" class="img-fluid " style="width: 200px; height: 200px;">
+                                
+                            <p class="text-muted pt-3 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                         <h4>- Mrs.Minakshi Singh</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+     <!-- Testimonial End--> 
+
+
+     <!--Contact Start-->
+             <div class="contact " id="contact">
+                   <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                              <h1 class="pt-5">Contact Us</h1>
+                              <div class="border"></div>
+                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 text-center">
+                                <div class="mt-5">
+                                 <h2>Address :</h2>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                 <p>Contact : +91 9874561230</p>
+                                 </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 text-center">
+                                <div class="mt-5 ">
+                                 <h4>Quick Links</h4>
+                                   <ul class="list-unstyled ">
+                                     <a href="#service" style="color:#fff;"> <li class="px-2 py-2">Service</li></a>
+                                     <a href="#testimonial" style="color:#fff;"><li class="px-2 py-2">Testimonials</li></a>
+                                     <a href="#contact" style="color:#fff;"><li class="px-2 py-2">Contact</li></a>
+                                  </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 text-center">
+                                <div class="mt-5">
+                                     <h4>Follow Us</h4>
+                                     <div class="icon">
+                                        <ul class="social-icon list-unstyled">
+                                            <li  ><i class="fa fa-facebook" ></i></li>
+                                            <li ><i class="fa fa-google-plus"></i></li>
+                                            <li ><i class="fa fa-linkedin"></i></li>
+                                            <li ><i class="fa fa-twitter"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+     <!--Contact End -->
+
+
+      <!--Footer-->
+
+       <div class="foot text-center">
+        <p>copyright@prasad2019</p>
+       </div>
+      <!--Footer end-->
+
+</body>
+</html>
